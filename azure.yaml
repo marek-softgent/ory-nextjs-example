@@ -1,0 +1,7 @@
+version: 1.0
+build:
+  steps:
+    - run: corepack enable
+    - run: corepack prepare yarn@4.7.0 --activate
+    - run: yarn install --immutable
+    - run: yarn build
