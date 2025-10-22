@@ -9,3 +9,4 @@ run:
   command: yarn start
   env:
     PORT: 8080
+    
