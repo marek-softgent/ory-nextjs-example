@@ -1,0 +1,5 @@
+# Use Node 20.x
+NODE_VERSION=20.19.5
+
+# Enable Corepack and Yarn 4
+PRE_BUILD_COMMANDS="corepack enable && corepack prepare yarn@4.7.0 --activate"
