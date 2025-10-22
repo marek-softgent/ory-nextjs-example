@@ -55,3 +55,8 @@ node_modules/
 dist/
 .env.local
 .DS_Store
+
+.yarn/cache
+.yarn/unplugged
+.yarn/install-state.gz
+node_modules
