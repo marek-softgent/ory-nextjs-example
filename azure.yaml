@@ -1,7 +1,11 @@
-version: 1.0
+version: 1.0.0
 build:
-  steps:
-    - run: corepack enable
-    - run: corepack prepare yarn@4.7.0 --activate
-    - run: yarn install --immutable
-    - run: yarn build
+  command: |
+    corepack enable
+    corepack prepare yarn@4.7.0 --activate
+    yarn install --immutable
+    yarn build
+run:
+  command: yarn start
+  env:
+    PORT: 8080
