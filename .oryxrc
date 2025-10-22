@@ -1,3 +1,2 @@
-# Fix for Yarn 4 and Corepack on Azure App Service (Oryx)
 NODE_VERSION=20.19.5
 PRE_BUILD_COMMANDS="corepack enable && corepack prepare yarn@4.7.0 --activate"
